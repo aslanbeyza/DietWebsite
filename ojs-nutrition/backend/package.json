@@ -1,0 +1,29 @@
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^11.0.1",
+    "nodemailer": "^6.9.15",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "react-hot-loader": "^4.13.1",
+    "sequelize": "^6.37.3",
+    "stripe": "^17.4.0",
+    "tedious": "^18.3.0"
+  }
+}

@@ -1,0 +1,38 @@
+.login-register-container {
+    text-align: left;
+    border: 1px solid #F3F3F3;
+    padding:1rem;
+    margin: 4rem;
+}
+
+  
+    .tabs-container {
+     margin-bottom:4rem;
+    }
+   
+  .tab-selected{
+    background-color:white !important ;
+    color:#2126AB !important;
+  }
+  .tab{
+    background-color:  #f7f7f7!important;
+    color:black !important;
+    border: 3px solid red;
+    padding: 0 50px;
+    position: absolute;
+  }
+
+.tabs-container .MuiTabs-flexContainer {
+  justify-content: space-between; /* Tab'lar arasındaki boşluğu artırır */
+}
+.custom-toast {
+  font-size: 14px !important;  /* Yazı boyutunu küçült */
+  background-color: #f0f0f0 !important;  /* Arka planı yumuşat */
+  color: #333 !important;  /* Yazı rengini daha sakin yap */
+  border-radius: 8px !important;  /* Köşeleri yuvarlak yap */
+  padding: 8px 12px !important;  /* İç boşlukları ayarla */
+}
+
+.custom-toast-body {
+  font-family: 'Arial', sans-serif !important; /* Tatlı bir font ailesi kullan */
+}

@@ -1,0 +1,14 @@
+
+services:
+  mssql:
+    build: .
+    platform: linux/amd64
+    container_name: express-mssql 
+    ports:
+      - "1433:1433" 
+    networks:
+      - mssql_network 
+
+networks:
+  mssql_network:
+    driver: bridge

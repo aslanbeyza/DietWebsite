@@ -1,0 +1,36 @@
+.card{
+    height: 330px;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.cardContent{
+    text-align: center;
+    overflow: visible;
+    white-space: normal;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.productName{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.productDescription{
+    overflow: visible;
+    white-space: normal;
+}
+.productPrice{
+    color: #000;
+    line-height: 32px;
+    font-size: 19.69px;
+}

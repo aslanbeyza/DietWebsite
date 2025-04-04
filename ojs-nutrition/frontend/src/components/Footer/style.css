@@ -1,0 +1,113 @@
+/* footer section lg */
+.footer {
+    cursor: pointer;
+     background-color: #000000;
+     color: #fff;
+     padding-top: 30px;
+   }
+   .allContainer{
+    justify-content: center;
+   }
+   .starsGrid{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+   }
+  .textsWrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .itemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px !important;
+  }
+  .logo{
+    display: flex;
+  }
+  .categoriesFooter{
+    height:100%;
+  }
+  .popularProducts{
+    height: 100%;
+  }
+  .footer .footer-list {
+    list-style: none;
+    padding: 0; 
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  .footer .footer-list li {
+    margin-bottom: 0.25rem;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+  }
+  .footer .footer-list li a {
+    color: #999999;
+    text-decoration: none;
+  }
+  .accordion-toggle::before {
+    content: "+";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    vertical-align: middle;
+    color: #999;
+  }
+  .footer .footer-list {
+    max-height: none; /* Liste öğelerinin her boyutta görünmesini sağladık */
+  }
+  .copyRight{
+    color: #999;
+  padding-top: 80px;
+  }
+  .skeleton{
+    background-color: #999;
+  }
+  /* ***************************************************************** */
+  /* footer section sm */
+  
+  @media (min-width: 390px) and (max-width: 778px) {
+    .productFooter{
+      height: 100%;
+    }
+    .footer .footer-list {
+      max-height: 0;
+    }
+    
+    .footer .footer-list li {
+      text-align: left !important; 
+    }
+    .footer .footer-list.active {
+      max-height: 300px; /* Açıldığında liste yüksekliği */
+      text-align: left !important;
+    }
+    .accordion-toggle {
+      text-align: left !important;
+    }
+  
+  
+  }
+  @media (min-width: 600px ) {
+    .accordion-toggle::before {
+      content: none;
+      margin-right: 0; /* Adjust margin as needed */
+    }
+  }
+  
+  /* xs bu mobil yani  */
+  @media (max-width: 600px){
+    .productFooter{
+      height: auto;
+    }
+    .logo{
+      display: none;
+    }
+  }

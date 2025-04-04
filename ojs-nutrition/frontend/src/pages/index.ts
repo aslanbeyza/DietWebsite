@@ -1,0 +1,10 @@
+export { default as About } from './About';
+export { default as Account } from './Account';
+export { default as Contact } from './Contact';
+export { default as Homepage } from './Homepage';
+export { default as Page404 } from './Page404';
+export { default as Payment } from './Payment';
+export { default as SSS } from './SSS';
+export { default as Login } from './Login';
+export { default as ProductList } from './ProductList';
+export { default as Detail } from './Detail';
